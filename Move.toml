@@ -1,0 +1,17 @@
+[package]
+name = "nameless_management_v0"
+version = "1.0.0"
+authors = []
+
+[addresses]
+my_management_addr = "0x4085614bac67f35aaa8843566633d3b05e182e53af02bad646e42cf734e68afd"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-token-objects"
